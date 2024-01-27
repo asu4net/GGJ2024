@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject MenuObject;
     public GameObject CreditsObject;
+   
     private void Awake()
     {
         Screen.SetResolution(1920, 1080, true);
