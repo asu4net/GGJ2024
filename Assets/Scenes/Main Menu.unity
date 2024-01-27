@@ -1681,7 +1681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1015.4, y: 127.96}
+  m_AnchoredPosition: {x: 1015.4, y: 238}
   m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491276199
@@ -1704,8 +1704,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sonido\nmigHtyLAZ\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nLuis Miguel
-    Garc\xEDa Ortiz\nSerial Mom"
+  m_text: "Sonido\nAlejandro Su\xE1rez perales\nEsteban restrepo guti\xE9rrez\nlesFreemusic\nMarina
+    del r\xEDo sanvicens\nM\xF3nica garc\xEDa contreras\nmigHtyLAZ\nroger Larriba
+    Baudillo\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nLuis Miguel Garc\xEDa Ortiz\nSerial
+    Mom"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c6e6a7409d3145b0da1970435d661, type: 2}
   m_sharedMaterial: {fileID: -4552817812760057747, guid: 114c6e6a7409d3145b0da1970435d661,
@@ -2189,7 +2191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851126949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2228,7 +2230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1864462210
 RectTransform:
   m_ObjectHideFlags: 0
