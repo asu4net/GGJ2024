@@ -34,12 +34,16 @@ public class LadderMovement : MonoBehaviour
         if(isClimbing)
         {
             anim.SetBool("climb", true);
+            
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * climbSpeed);
             if (Mathf.Abs(rb.velocity.y) == 0)
             {
-
                 anim.SetBool("climbstop", true);
+            }
+            else
+            {
+                anim.SetBool("climbstop", false);
             }
         }
         else
