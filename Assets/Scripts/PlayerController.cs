@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     public float speed = 5f;
     bool isFacingRight = true;
+    public GameObject visuals;
 
     Rigidbody2D rb;
 
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        Flip();
     }
     private void FixedUpdate()
     {
@@ -29,9 +31,9 @@ public class PlayerController : MonoBehaviour
         if(isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0)
         {
             isFacingRight=!isFacingRight;
-            Vector3 localscale=transform.localScale;
-            localscale.x *= -1;
-            transform.localScale = localscale;
+            Vector3 localscale=visuals.transform.localScale;
+            localscale.z *= -1;
+            visuals.transform.localScale = localscale;
         }
     }
 }

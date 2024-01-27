@@ -1020,6 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  visuals: {fileID: 6304435352205025849}
 --- !u!1 &4466748833541864028
 GameObject:
   m_ObjectHideFlags: 0
