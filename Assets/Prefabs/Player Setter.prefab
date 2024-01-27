@@ -1008,6 +1008,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   climbSpeed: 7
+  isClimbing: 0
+  anim: {fileID: 4016099774628324236}
 --- !u!114 &7620965272001340471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1022,6 +1024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   visuals: {fileID: 6304435352205025849}
+  anim: {fileID: 4016099774628324236}
 --- !u!1 &4466748833541864028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,14 +1642,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6304435352205025849}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999994}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3871491463735221759}
   m_Father: {fileID: 4198575176783221506}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
 --- !u!95 &4016099774628324236
 Animator:
   serializedVersion: 5

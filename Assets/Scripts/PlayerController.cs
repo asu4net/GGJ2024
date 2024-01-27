@@ -11,15 +11,28 @@ public class PlayerController : MonoBehaviour
     public GameObject visuals;
 
     Rigidbody2D rb;
+    public Animator anim;
+
+    LadderMovement lm;
 
     private void Awake()
     {
+        lm = GetComponent<LadderMovement>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        if (Mathf.Abs(horizontal) > 0)
+        {
+            anim.SetBool("run", true);
+        }
+        else
+        {
+            anim.SetBool("run", false);
+        }
+
         Flip();
     }
     private void FixedUpdate()
@@ -28,12 +41,21 @@ public class PlayerController : MonoBehaviour
     }
     public void Flip()
     {
-        if(isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0)
+        if(!lm.isClimbing &&(isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0))
         {
             isFacingRight=!isFacingRight;
-            Vector3 localscale=visuals.transform.localScale;
-            localscale.z *= -1;
-            visuals.transform.localScale = localscale;
+            Quaternion localRotation=visuals.transform.rotation;
+            localRotation.y *= -1;
+            visuals.transform.rotation = localRotation;
         }
+        
+        else if(lm.isClimbing && !isFacingRight)
+        {
+            isFacingRight = !isFacingRight;
+            Quaternion localRotation = visuals.transform.rotation;
+            localRotation.y *= -1;
+            visuals.transform.rotation = localRotation;
+        }
+
     }
 }

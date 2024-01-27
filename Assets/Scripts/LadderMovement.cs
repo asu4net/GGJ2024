@@ -7,12 +7,15 @@ public class LadderMovement : MonoBehaviour
     float vertical;
     public float climbSpeed = 4f;
     bool isLadder;
-    bool isClimbing;
+    [HideInInspector]
+    public bool isClimbing;
 
     Rigidbody2D rb;
+    public Animator anim;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        
     }
 
     private void Update()
@@ -30,11 +33,19 @@ public class LadderMovement : MonoBehaviour
     {
         if(isClimbing)
         {
+            anim.SetBool("climb", true);
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * climbSpeed);
+            if (Mathf.Abs(rb.velocity.y) == 0)
+            {
+
+                anim.SetBool("climbstop", true);
+            }
         }
         else
         {
+            anim.SetBool("climb", false);
+            anim.SetBool("climbstop", false);
             rb.gravityScale = 4f;
         }
     }
