@@ -30,10 +30,8 @@ public class LadderMovement : MonoBehaviour
     {
         if(isClimbing)
         {
-            Debug.Log("Aquí estoy");
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * climbSpeed);
-            Debug.Log("Subimos a una velocidad de " + vertical * climbSpeed);
         }
         else
         {
