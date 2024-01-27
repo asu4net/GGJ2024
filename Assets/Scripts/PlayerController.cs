@@ -2,13 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     float horizontal;
-    public float speed = 8f;
+    public float speed = 5f;
     bool isFacingRight = true;
 
-    [SerializeField] Rigidbody2D rb;
+    Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     void Update()
     {
