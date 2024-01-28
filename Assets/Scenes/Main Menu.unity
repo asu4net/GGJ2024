@@ -829,7 +829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -385.9}
+  m_AnchoredPosition: {x: 0, y: -420}
   m_SizeDelta: {x: 423.3, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774399379
@@ -1111,7 +1111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.8, y: 238.8}
+  m_AnchoredPosition: {x: -42.8, y: 325}
   m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887130210
@@ -1134,9 +1134,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arte\nAndr\xE8 Garc\xEDa D\xEDaz\nJavier Garc\xEDa Hermosilla\n\nDise\xF1o\nAndr\xE8
-    Garc\xEDa D\xEDaz\nJavier Garc\xEDa Hermosilla\nJos\xE9 Miguel Guill\xE9n Fern\xE1ndez\n\nProgramaci\xF3n\nJos\xE9
-    Miguel Guill\xE9n Fern\xE1ndez\nAlejandro Su\xE1rez perales"
+  m_text: "Arte\nAndr\xE8 Garc\xEDa D\xEDaz\nJavier Garc\xEDa Hermosilla\nJos\xE9
+    Miguel Guill\xE9n Fern\xE1ndez\n\nDise\xF1o\nAndr\xE8 Garc\xEDa D\xEDaz\nJavier
+    Garc\xEDa Hermosilla\nJos\xE9 Miguel Guill\xE9n Fern\xE1ndez\n\nProgramaci\xF3n\nJos\xE9
+    Miguel Guill\xE9n Fern\xE1ndez\nAlejandro Su\xE1rez perales\n\nAnimaci\xF3n\nAndr\xE8
+    Garc\xEDa D\xEDaz\nJos\xE9 Miguel Guill\xE9n Fern\xE1ndez"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c6e6a7409d3145b0da1970435d661, type: 2}
   m_sharedMaterial: {fileID: -4552817812760057747, guid: 114c6e6a7409d3145b0da1970435d661,
@@ -1713,7 +1715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1015.4, y: 238}
+  m_AnchoredPosition: {x: 923, y: 340}
   m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491276199
@@ -1736,13 +1738,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sonido\nAlejandro Su\xE1rez perales\nEsteban restrepo guti\xE9rrez\nlesFreemusic\nMarina
-    del r\xEDo sanvicens\nM\xF3nica garc\xEDa contreras\nmigHtyLAZ\nroger Larriba
-    Baudillo\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nLuis Miguel Garc\xEDa Ortiz\nSerial
-    Mom"
+  m_text: "Sonido\nAlejandro Su\xE1rez perales\nAndr\xE8 Garc\xEDa D\xEDaz\nEsteban
+    restrepo guti\xE9rrez\nGemma SoF\xEDa CHanQu\xE9s Avilar \nJos\xE9 Miguel Guill\xE9n
+    Fern\xE1ndez\nlesFreemusic\nLuis Miguel Garc\xEDa Ortiz\nMarina del r\xEDo sanvicens\nM\xF3nica
+    garc\xEDa contreras\nmigHtyLAZ\nroger Larriba Baudillo\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nCarlos
+    \"El mango loco\" Tortosa\nLuis Miguel Garc\xEDa Ortiz\nSerial Mom"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 114c6e6a7409d3145b0da1970435d661, type: 2}
-  m_sharedMaterial: {fileID: -4552817812760057747, guid: 114c6e6a7409d3145b0da1970435d661,
+  m_fontAsset: {fileID: 11400000, guid: 579a518592143e64b9f0c55fffc77acc, type: 2}
+  m_sharedMaterial: {fileID: 2652947522107333392, guid: 579a518592143e64b9f0c55fffc77acc,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2241,7 +2244,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851126949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2280,7 +2283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1864462210
 RectTransform:
   m_ObjectHideFlags: 0
