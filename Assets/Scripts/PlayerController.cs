@@ -63,7 +63,11 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("AudioTrigger"))
         {
-            am.LoadPlaylist(collision.GetComponent<TriggerFunctionality>().clips);
+            am.LoadPlaylist(collision.GetComponent<TriggerFunctionality>());
+            if(collision.GetComponent<TriggerFunctionality>().brother != null)
+            {
+                collision.GetComponent<TriggerFunctionality>().brother.SetActive(false);
+            }
             collision.gameObject.SetActive(false);
         }
     }

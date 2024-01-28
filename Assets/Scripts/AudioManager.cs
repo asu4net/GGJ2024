@@ -14,11 +14,12 @@ public class AudioManager : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
     }
-    public void LoadPlaylist(List<AudioClip> newPlaylist)
+    public void LoadPlaylist(TriggerFunctionality tf)
     {
+        
         StopAllCoroutines();
         playlist.Clear();
-        playlist= newPlaylist;
+        playlist= tf.clips; 
         PlayPlaylist();
     }
 
