@@ -51,7 +51,6 @@ public class LadderMovement : MonoBehaviour
             anim.SetBool("climb", false);
             anim.SetBool("climbstop", false);
             rb.gravityScale = 4f;
-
             if (rb.velocity.y < 0)
             {
                 anim.SetBool("fall", true);
