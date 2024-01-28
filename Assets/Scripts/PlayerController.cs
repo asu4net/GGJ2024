@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     LadderMovement lm;
     AudioManager am;
+    AudioSource audioSource;
     [HideInInspector]
     public FootstepsScript fs;
 
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         am = GetComponent<AudioManager>();
         fs = GetComponent<FootstepsScript>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
