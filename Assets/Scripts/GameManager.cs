@@ -11,10 +11,17 @@ public class GameManager : MonoBehaviour
 
     public GameObject Credits_first_selected;
     public GameObject Principal_first_selected;
+    public Animator anim;
+    AudioSource source;
+    public AudioClip openDoor;
+
+    PlayerController playerController;
 
     private void Awake()
     {
         Screen.SetResolution(1920, 1080, true);
+        source = GetComponent<AudioSource>();
+        playerController = GetComponent<PlayerController>();
     }
 
     public void BeginGame()

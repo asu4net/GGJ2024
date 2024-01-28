@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     LadderMovement lm;
     AudioManager am;
 
+    public bool canPlay = false;
+
     private void Awake()
     {
         lm = GetComponent<LadderMovement>();
@@ -24,22 +26,32 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        if (Mathf.Abs(horizontal) > 0)
+        if (canPlay)
         {
-            anim.SetBool("run", true);
-        }
-        else
-        {
-            anim.SetBool("run", false);
-        }
-
-        Flip();
+            horizontal = Input.GetAxisRaw("Horizontal");
+            if (Mathf.Abs(horizontal) > 0)
+            {
+                anim.SetBool("run", true);
+            }
+            else
+            {
+                anim.SetBool("run", false);
+            }
+            Flip();
+        }              
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (canPlay)
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
     }
+    public void SwitchPlayerState()
+    {
+        canPlay = !canPlay;
+    }
+
     public void Flip()
     {
         if(!lm.isClimbing &&(isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0))
