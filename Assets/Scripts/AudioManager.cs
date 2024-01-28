@@ -11,15 +11,23 @@ public class AudioManager : MonoBehaviour
 
     public void LoadPlaylist(List<AudioClip> newPlaylist)
     {
+        StopAllCoroutines();
         playlist.Clear();
         playlist= newPlaylist;
+        PlayPlaylist();
     }
 
     public void PlayPlaylist()
     {
         for (int i = 0; i < playlist.Count; i++)
         {
-            source.clip = playlist[i];
+            StartCoroutine(Player(i));
         }
+    }
+
+    public IEnumerator Player(int index)
+    {
+        source.clip = playlist[index];
+        yield return new WaitWhile(()=>source.isPlaying);
     }
 }
