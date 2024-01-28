@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     LadderMovement lm;
     AudioManager am;
+    FootstepsScript fs;
 
     public bool canPlay = false;
 
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
         lm = GetComponent<LadderMovement>();
         rb = GetComponent<Rigidbody2D>();
         am = GetComponent<AudioManager>();
+        fs = GetComponent<FootstepsScript>();
     }
 
     void Update()
@@ -45,6 +47,15 @@ public class PlayerController : MonoBehaviour
         if (canPlay)
         {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+            if(Mathf.Abs(rb.velocity.x)>0 && rb.velocity.y==0)
+            {
+                fs.PlayFootsteps();
+            }
+            else
+            {
+                fs.StopFootsteps();
+            }
         }
     }
     public void SwitchPlayerState()
