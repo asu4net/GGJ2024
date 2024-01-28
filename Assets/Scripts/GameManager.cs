@@ -15,13 +15,29 @@ public class GameManager : MonoBehaviour
     AudioSource source;
     public AudioClip openDoor;
 
-    PlayerController playerController;
+    public PlayerController playerController;
 
     private void Awake()
     {
         Screen.SetResolution(1920, 1080, true);
         source = GetComponent<AudioSource>();
-        playerController = GetComponent<PlayerController>();
+        if (playerController == null)
+        {
+            playerController = GetComponent<PlayerController>();
+        }
+        
+    }
+
+    public void PausePlay()
+    {
+        
+        playerController.SwitchPlayerState();
+        playerController.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        playerController.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+        playerController.fs.StopFootsteps();
+        playerController.anim.SetBool("fall", false);
+        playerController.anim.SetBool("run", false);
+        playerController.anim.SetBool("climb", false);
     }
 
     public void BeginGame()

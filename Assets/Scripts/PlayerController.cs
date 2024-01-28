@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     LadderMovement lm;
     AudioManager am;
-    FootstepsScript fs;
+    [HideInInspector]
+    public FootstepsScript fs;
 
     public bool canPlay = false;
 
@@ -69,8 +70,11 @@ public class PlayerController : MonoBehaviour
         {
             isFacingRight=!isFacingRight;
             Quaternion localRotation=visuals.transform.rotation;
+            Debug.Log("Rotación actual: " + localRotation.y);
             localRotation.y *= -1;
+            Debug.Log("Rotación a aplicar: " + localRotation.y);
             visuals.transform.rotation = localRotation;
+            Debug.Log("Rotación actual (nueva): " + visuals.transform.rotation.y);
         }
         
         else if(lm.isClimbing && !isFacingRight)
@@ -91,6 +95,12 @@ public class PlayerController : MonoBehaviour
             {
                 collision.GetComponent<TriggerFunctionality>().brother.SetActive(false);
             }
+            collision.gameObject.SetActive(false);
+        }
+        if (collision.CompareTag("Chest"))
+        {
+            collision.gameObject.GetComponent<TriggerFunctionality>().Director.gameObject.GetComponent<Animator>().enabled = true;
+            collision.gameObject.GetComponent<TriggerFunctionality>().Director.gameObject.GetComponent<Animator>().SetBool("Go",true);
             collision.gameObject.SetActive(false);
         }
     }
