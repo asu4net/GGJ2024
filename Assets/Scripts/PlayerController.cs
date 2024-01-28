@@ -9,16 +9,17 @@ public class PlayerController : MonoBehaviour
     public float speed = 5f;
     bool isFacingRight = true;
     public GameObject visuals;
-
-    Rigidbody2D rb;
     public Animator anim;
 
+    Rigidbody2D rb;
     LadderMovement lm;
+    AudioManager am;
 
     private void Awake()
     {
         lm = GetComponent<LadderMovement>();
         rb = GetComponent<Rigidbody2D>();
+        am = GetComponent<AudioManager>();
     }
 
     void Update()
@@ -57,5 +58,13 @@ public class PlayerController : MonoBehaviour
             visuals.transform.rotation = localRotation;
         }
 
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("AudioTrigger"))
+        {
+            am.LoadPlaylist(collision.GetComponent<TriggerFunctionality>().clips);
+            collision.gameObject.SetActive(false);
+        }
     }
 }

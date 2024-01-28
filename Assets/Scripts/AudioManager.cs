@@ -1,14 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource source;
+    AudioSource source;
 
     [HideInInspector]
     public List<AudioClip> playlist;
 
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
     public void LoadPlaylist(List<AudioClip> newPlaylist)
     {
         StopAllCoroutines();
@@ -19,15 +24,16 @@ public class AudioManager : MonoBehaviour
 
     public void PlayPlaylist()
     {
-        for (int i = 0; i < playlist.Count; i++)
-        {
-            StartCoroutine(Player(i));
-        }
+        StartCoroutine(Player());
     }
 
-    public IEnumerator Player(int index)
+    public IEnumerator Player()
     {
-        source.clip = playlist[index];
-        yield return new WaitWhile(()=>source.isPlaying);
+        for (int i = 0; i < playlist.Count; i++)
+        {
+            source.clip = playlist[i];
+            source.Play();
+            yield return new WaitForSeconds(source.clip.length);
+        } 
     }
 }
