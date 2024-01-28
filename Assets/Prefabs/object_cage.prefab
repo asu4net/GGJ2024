@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4824666679260796846}
   - component: {fileID: 8529072484677136724}
   - component: {fileID: 6395687251726010115}
-  - component: {fileID: 3361322489692352086}
   - component: {fileID: 6510331298510338492}
   m_Layer: 0
   m_Name: Torch (4)
@@ -85,27 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3361322489692352086
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022269937659270081}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &6510331298510338492
 Animator:
   serializedVersion: 5
@@ -138,7 +116,6 @@ GameObject:
   - component: {fileID: 8542521826666658701}
   - component: {fileID: 5585770242080251725}
   - component: {fileID: 328321649040457914}
-  - component: {fileID: 7549568730791955801}
   - component: {fileID: 5685173975494437396}
   m_Layer: 0
   m_Name: Torch (3)
@@ -212,27 +189,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7549568730791955801
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205510973908315111}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &5685173975494437396
 Animator:
   serializedVersion: 5
@@ -265,7 +221,6 @@ GameObject:
   - component: {fileID: 1954252734056308206}
   - component: {fileID: 1879409043555088848}
   - component: {fileID: 9200107398982310688}
-  - component: {fileID: 1063239326096332864}
   - component: {fileID: 7000887522963961564}
   m_Layer: 0
   m_Name: Torch
@@ -339,27 +294,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1063239326096332864
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5155947933611814938}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &7000887522963961564
 Animator:
   serializedVersion: 5
@@ -461,7 +395,6 @@ GameObject:
   - component: {fileID: 2629959773737562125}
   - component: {fileID: 4590308057446226322}
   - component: {fileID: 1534396205225718781}
-  - component: {fileID: 6145403168475626388}
   - component: {fileID: 3065605203243586814}
   m_Layer: 0
   m_Name: Torch (1)
@@ -535,27 +468,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6145403168475626388
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7173254115060774640}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &3065605203243586814
 Animator:
   serializedVersion: 5
@@ -588,7 +500,6 @@ GameObject:
   - component: {fileID: 2438097685515409855}
   - component: {fileID: 2368395315748011393}
   - component: {fileID: 5000792754877538161}
-  - component: {fileID: 3749907376571456529}
   - component: {fileID: 6621167147087377037}
   m_Layer: 0
   m_Name: Torch
@@ -662,27 +573,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3749907376571456529
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9027079767170315339}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &6621167147087377037
 Animator:
   serializedVersion: 5
@@ -715,7 +605,6 @@ GameObject:
   - component: {fileID: 7966058701821566737}
   - component: {fileID: 189375871835875382}
   - component: {fileID: 8786272979460872827}
-  - component: {fileID: 8902610383427631391}
   - component: {fileID: 2002363537835687102}
   m_Layer: 0
   m_Name: Torch (2)
@@ -789,27 +678,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8902610383427631391
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9122563450476126688}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &2002363537835687102
 Animator:
   serializedVersion: 5

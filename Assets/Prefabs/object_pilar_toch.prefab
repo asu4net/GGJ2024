@@ -289,7 +289,6 @@ GameObject:
   - component: {fileID: 8101710917285179071}
   - component: {fileID: 6271705933830430595}
   - component: {fileID: 7580176811481817897}
-  - component: {fileID: 2057700290640953238}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -362,27 +361,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2057700290640953238
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683574874191308070}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6423056032826976559
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +372,6 @@ GameObject:
   - component: {fileID: 7814092387482072066}
   - component: {fileID: 7361379765989347230}
   - component: {fileID: 9025947116755428186}
-  - component: {fileID: 7483887180007022375}
   m_Layer: 0
   m_Name: flame_01
   m_TagString: Untagged
@@ -467,27 +444,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7483887180007022375
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6423056032826976559}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6649062954200282403
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +455,6 @@ GameObject:
   - component: {fileID: 5103180152558473135}
   - component: {fileID: 8612476114421834395}
   - component: {fileID: 8915425338249360372}
-  - component: {fileID: 3011468250952757107}
   m_Layer: 0
   m_Name: flame_02
   m_TagString: Untagged
@@ -572,27 +527,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3011468250952757107
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649062954200282403}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6948354105525465701
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +572,6 @@ GameObject:
   - component: {fileID: 2438097685515409855}
   - component: {fileID: 2368395315748011393}
   - component: {fileID: 5000792754877538161}
-  - component: {fileID: 3749907376571456529}
   - component: {fileID: 6621167147087377037}
   m_Layer: 0
   m_Name: Torch
@@ -715,27 +648,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3749907376571456529
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9027079767170315339}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &6621167147087377037
 Animator:
   serializedVersion: 5
