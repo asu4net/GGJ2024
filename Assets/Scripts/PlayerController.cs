@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     bool isFacingRight = true;
     public GameObject visuals;
     public Animator anim;
+    public ButtMovement butt;
 
     Rigidbody2D rb;
     LadderMovement lm;
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
     AudioSource audioSource;
     [HideInInspector]
     public FootstepsScript fs;
-
+    [HideInInspector]
     public bool canPlay = false;
 
     private void Awake()
@@ -29,6 +30,14 @@ public class PlayerController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            canPlay = true;
+            isFacingRight = false;
+        }
+    }
     void Update()
     {
         if (canPlay)
@@ -72,11 +81,8 @@ public class PlayerController : MonoBehaviour
         {
             isFacingRight=!isFacingRight;
             Quaternion localRotation=visuals.transform.rotation;
-            Debug.Log("Rotación actual: " + localRotation.y);
             localRotation.y *= -1;
-            Debug.Log("Rotación a aplicar: " + localRotation.y);
             visuals.transform.rotation = localRotation;
-            Debug.Log("Rotación actual (nueva): " + visuals.transform.rotation.y);
         }
         
         else if(lm.isClimbing && !isFacingRight)
@@ -104,6 +110,10 @@ public class PlayerController : MonoBehaviour
             collision.gameObject.GetComponent<TriggerFunctionality>().Director.gameObject.GetComponent<Animator>().enabled = true;
             collision.gameObject.GetComponent<TriggerFunctionality>().Director.gameObject.GetComponent<Animator>().SetBool("Go",true);
             collision.gameObject.SetActive(false);
+        }
+        if (collision.CompareTag("buttCP"))
+        {
+            butt.GoToID(collision.gameObject.GetComponent<TriggerFunctionality>());
         }
     }
 }

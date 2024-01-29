@@ -7,14 +7,15 @@ TagManager:
   - Ladder
   - AudioTrigger
   - Chest
+  - buttCP
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Butt
   - 
   - 
   - 

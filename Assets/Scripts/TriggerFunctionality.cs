@@ -6,6 +6,7 @@ public class TriggerFunctionality : MonoBehaviour
 {
     MeshRenderer mr;
     public List<AudioClip> clips;
+    public int id;
 
     [Header("(Por esto no os preocupéis, no toquéis nada)")]
     public GameObject brother;

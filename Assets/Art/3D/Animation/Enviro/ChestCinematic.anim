@@ -14575,7 +14575,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 16.783333
-    functionName: CloseGame
+    functionName: BeginGame
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6460617439243253188}
   - component: {fileID: 7589181889538386575}
   - component: {fileID: 4124476448340766732}
-  - component: {fileID: 5476325740240063964}
   m_Layer: 0
   m_Name: Templar_head_01
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5476325740240063964
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591308750687122071}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &639334300059876203
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +126,6 @@ GameObject:
   - component: {fileID: 4977406320005029711}
   - component: {fileID: 3951078461218397663}
   - component: {fileID: 2249485641570903691}
-  - component: {fileID: 5692596280212338301}
   m_Layer: 0
   m_Name: Templar_leg_L_01
   m_TagString: Untagged
@@ -222,27 +199,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5692596280212338301
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513964942564244034}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1860424961903560022
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +210,6 @@ GameObject:
   - component: {fileID: 7112373747070046438}
   - component: {fileID: 8817378572565383088}
   - component: {fileID: 2359952326495630205}
-  - component: {fileID: 4436903590965004107}
   m_Layer: 0
   m_Name: Templar_leg_L_02
   m_TagString: Untagged
@@ -327,27 +282,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4436903590965004107
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860424961903560022}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1991332568184112020
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +368,6 @@ GameObject:
   - component: {fileID: 1786079268362522726}
   - component: {fileID: 3077449089537933251}
   - component: {fileID: 555689393557268287}
-  - component: {fileID: 3208358976049790153}
   m_Layer: 0
   m_Name: Templar_arm_L_02
   m_TagString: Untagged
@@ -507,27 +440,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3208358976049790153
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3176649785857178522}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3867127648666969745
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +451,6 @@ GameObject:
   - component: {fileID: 5043533028223330196}
   - component: {fileID: 2565487859882315025}
   - component: {fileID: 523054491206961970}
-  - component: {fileID: 3059878619575167870}
   m_Layer: 0
   m_Name: Templar_leg_R_01
   m_TagString: Untagged
@@ -613,27 +524,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3059878619575167870
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3867127648666969745}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3896648754787189187
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +535,6 @@ GameObject:
   - component: {fileID: 1110945195949257710}
   - component: {fileID: 2461374572305978302}
   - component: {fileID: 2900150634727179592}
-  - component: {fileID: 2035148399308200821}
   m_Layer: 0
   m_Name: Templar_body_01
   m_TagString: Untagged
@@ -723,27 +612,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2035148399308200821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3896648754787189187}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3981189027375738224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +974,7 @@ MonoBehaviour:
   speed: 8
   visuals: {fileID: 6304435352205025849}
   anim: {fileID: 4016099774628324236}
+  butt: {fileID: 0}
   fs: {fileID: 0}
   canPlay: 0
 --- !u!114 &8879965536956430141
@@ -1419,7 +1288,6 @@ GameObject:
   - component: {fileID: 5395600463426592063}
   - component: {fileID: 7415763388914457742}
   - component: {fileID: 4901124836318033608}
-  - component: {fileID: 8279012309287773354}
   m_Layer: 0
   m_Name: Templar_arm_L_01
   m_TagString: Untagged
@@ -1493,27 +1361,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8279012309287773354
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4737066196449204232}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5120022770875941965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1372,6 @@ GameObject:
   - component: {fileID: 3668906526973300396}
   - component: {fileID: 446590437502614916}
   - component: {fileID: 7312011906420650107}
-  - component: {fileID: 98039259653538397}
   m_Layer: 0
   m_Name: cejas
   m_TagString: Untagged
@@ -1598,27 +1444,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &98039259653538397
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120022770875941965}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5369190531248240767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,7 +1455,6 @@ GameObject:
   - component: {fileID: 7655338749736605784}
   - component: {fileID: 3357376551307356994}
   - component: {fileID: 7928641624459457421}
-  - component: {fileID: 3003450426319860979}
   m_Layer: 0
   m_Name: Templar_head_03
   m_TagString: Untagged
@@ -1703,27 +1527,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3003450426319860979
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5369190531248240767}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6122268089800324088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,7 +1571,6 @@ GameObject:
   - component: {fileID: 2245570883384754366}
   - component: {fileID: 3566732896476802753}
   - component: {fileID: 6250362670665145314}
-  - component: {fileID: 7191299114294304751}
   m_Layer: 0
   m_Name: Templar_arm_R_01
   m_TagString: Untagged
@@ -1842,27 +1644,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7191299114294304751
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6226283053338785300}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6304435352205025849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1709,6 @@ GameObject:
   - component: {fileID: 4916591356975523365}
   - component: {fileID: 8565770746341346861}
   - component: {fileID: 6796915804598243848}
-  - component: {fileID: 3376955238197662645}
   m_Layer: 0
   m_Name: Templar_arm_R_02
   m_TagString: Untagged
@@ -2001,27 +1781,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3376955238197662645
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6526500022868150880}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6546120248345900341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +1894,6 @@ GameObject:
   - component: {fileID: 53426613854206031}
   - component: {fileID: 7255911735695287481}
   - component: {fileID: 6421703677576967316}
-  - component: {fileID: 8027290989970672294}
   m_Layer: 0
   m_Name: cejas (1)
   m_TagString: Untagged
@@ -2208,27 +1966,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8027290989970672294
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6546905295280439464}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6968923808467841655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2105,6 @@ GameObject:
   - component: {fileID: 3340013609048612544}
   - component: {fileID: 5876476250078112454}
   - component: {fileID: 5056748642294271490}
-  - component: {fileID: 1501086969528163363}
   m_Layer: 0
   m_Name: Templar_leg_R_02
   m_TagString: Untagged
@@ -2441,27 +2177,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1501086969528163363
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7699598240434055292}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7911310489182446679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,7 +2188,6 @@ GameObject:
   - component: {fileID: 7380672494181530345}
   - component: {fileID: 5957096978499334717}
   - component: {fileID: 6752307512543478341}
-  - component: {fileID: 5160427846855202717}
   m_Layer: 0
   m_Name: Templar_head_02
   m_TagString: Untagged
@@ -2548,27 +2262,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5160427846855202717
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7911310489182446679}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8220647053740904868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,7 +2273,6 @@ GameObject:
   - component: {fileID: 3871491463735221759}
   - component: {fileID: 4069505604682573011}
   - component: {fileID: 3254612676821540419}
-  - component: {fileID: 1562718723948952700}
   m_Layer: 0
   m_Name: Templar_body_02
   m_TagString: Untagged
@@ -2656,27 +2348,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1562718723948952700
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8220647053740904868}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8416353315876553730
 GameObject:
   m_ObjectHideFlags: 0

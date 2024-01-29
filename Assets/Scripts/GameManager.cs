@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
     public void BeginGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
     public void GoToCredits()
     {
