@@ -53,7 +53,7 @@ public class ButtMovement : MonoBehaviour
 
     public void GoToID(TriggerFunctionality destination)
     {
-        Debug.Log("ID actual: " + currentID + "\nID objetivo: " + destination.id + "\nDiferencia: " + (destination.id - currentID));
+        //Debug.Log("ID actual: " + currentID + "\nID objetivo: " + destination.id + "\nDiferencia: " + (destination.id - currentID));
         if (destination.id - currentID > 1)
         {
             transform.position = objective;
