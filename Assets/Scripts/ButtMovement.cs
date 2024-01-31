@@ -15,11 +15,13 @@ public class ButtMovement : MonoBehaviour
     GameObject visuals;
     Rigidbody2D rb;
     Vector3 objective;
+    AudioSource audioSource;
 
     private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
         visuals = animator.gameObject;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -40,11 +42,13 @@ public class ButtMovement : MonoBehaviour
     public void Walk()
     {
         animator.SetBool("Run", true);
+        audioSource.enabled = true;
     }
 
     public void Stop()
     {
         animator.SetBool("Run", false);
+        audioSource.enabled = false;
     }
 
     public void GoToID(TriggerFunctionality destination)
