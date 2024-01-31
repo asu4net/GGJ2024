@@ -8,6 +8,7 @@ TagManager:
   - AudioTrigger
   - Chest
   - buttCP
+  - End
   layers:
   - Default
   - TransparentFX

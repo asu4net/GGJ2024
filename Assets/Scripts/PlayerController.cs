@@ -115,5 +115,11 @@ public class PlayerController : MonoBehaviour
         {
             butt.GoToID(collision.gameObject.GetComponent<TriggerFunctionality>());
         }
+
+        if (collision.CompareTag("End"))
+        {
+            SwitchPlayerState();
+            collision.gameObject.SetActive(false);
+        }
     }
 }
