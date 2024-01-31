@@ -7,6 +7,7 @@ public class EndManager : MonoBehaviour
 {
     public GameManager gameManager;
     public GameObject playerVisuals;
+    public GameObject butt;
     public Image black;
     public AudioClip finalFart;
     AudioSource audioSource;
@@ -19,10 +20,12 @@ public class EndManager : MonoBehaviour
     public void CallPausePlay()
     {
         gameManager.PausePlay();
+        TurnOffVisuals();
     }
     public void TurnOffVisuals()
     {
         playerVisuals.SetActive(false);
+        StartCoroutine(DoorSound());
     }
     public void TurnOffScreen()
     {
@@ -32,8 +35,9 @@ public class EndManager : MonoBehaviour
     {
 
         audioSource.Play();
-        yield return new WaitForSeconds(audioSource.clip.length);
         black.color = Color.black;
+        butt.SetActive(false);
+        yield return new WaitForSeconds(audioSource.clip.length);   
         audioSource.clip = finalFart;
         StartCoroutine(EndGame());
     }

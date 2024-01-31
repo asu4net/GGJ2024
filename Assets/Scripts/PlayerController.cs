@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public FootstepsScript fs;
     [HideInInspector]
     public bool canPlay = false;
+    public MusicClass bgm;
 
     private void Awake()
     {
@@ -52,7 +55,8 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("run", false);
             }
             Flip();
-        }              
+        }
+
     }
     private void FixedUpdate()
     {
@@ -118,9 +122,9 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("End"))
         {
-            SwitchPlayerState();
-            collision.gameObject.GetComponent<Animator>().SetBool("endgame",true);
-            collision.gameObject.SetActive(false);
+            //collision.gameObject.GetComponent<Animator>().SetBool("endgame",true);
+            collision.gameObject.GetComponent<BoxCollider2D>().enabled=false;
+            collision.GetComponent<EndManager>().CallPausePlay();
         }
     }
 }
