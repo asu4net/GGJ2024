@@ -16,6 +16,10 @@ public class EndManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    public void CallPausePlay()
+    {
+        gameManager.PausePlay();
+    }
     public void TurnOffVisuals()
     {
         playerVisuals.SetActive(false);

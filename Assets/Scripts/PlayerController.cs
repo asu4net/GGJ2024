@@ -119,6 +119,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("End"))
         {
             SwitchPlayerState();
+            collision.gameObject.GetComponent<Animator>().SetBool("endgame",true);
             collision.gameObject.SetActive(false);
         }
     }
