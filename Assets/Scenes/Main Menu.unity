@@ -1111,7 +1111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.8, y: 325}
+  m_AnchoredPosition: {x: -42.8, y: 314.1}
   m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887130210
@@ -1166,8 +1166,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1715,7 +1715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 923, y: 340}
+  m_AnchoredPosition: {x: 971.4, y: 341}
   m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491276199
@@ -1738,12 +1738,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sonido\nAlejandro Su\xE1rez perales\nAndr\xE8 Garc\xEDa D\xEDaz\nEsteban
-    restrepo guti\xE9rrez\nGemma SoF\xEDa CHanQu\xE9s Avilar \nJavier Garc\xEDa Hermosilla\nJos\xE9
-    Miguel Guill\xE9n Fern\xE1ndez\nlesFreemusic\nLuis Miguel Garc\xEDa Ortiz\nMarina
-    del r\xEDo sanvicens\nM\xF3nica garc\xEDa contreras\nmigHtyLAZ\nroger Larriba
-    Baudillo\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nCarlos \"El mango loco\"
-    Tortosa\nLuis Miguel Garc\xEDa Ortiz\nSerial Mom"
+  m_text: "Sonido\nAlejandro Su\xE1rez perales\nAndr\xE8 Garc\xEDa D\xEDaz\nBob Esponja\nEsteban
+    restrepo guti\xE9rrez\nFreeSoundEffects\nGemma SoF\xEDa CHanQu\xE9s Avilar \nJavier
+    Garc\xEDa Hermosilla\nJos\xE9 Miguel Guill\xE9n Fern\xE1ndez\nlesFreemusic\nLuis
+    Miguel Garc\xEDa Ortiz\nMarina del r\xEDo sanvicens\nM\xF3nica garc\xEDa contreras\nmigHtyLAZ\nOne
+    Piece\nroger Larriba Baudillo\nTHE GuILD OF AMBIENCE\n\nAgradecimientos\nCarlos
+    \"El mango loco\" Tortosa\nLuis Miguel Garc\xEDa Ortiz\nSerial Mom"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579a518592143e64b9f0c55fffc77acc, type: 2}
   m_sharedMaterial: {fileID: 2652947522107333392, guid: 579a518592143e64b9f0c55fffc77acc,
@@ -1771,8 +1771,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
